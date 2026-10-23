@@ -1,0 +1,13 @@
+id = "statac-lsp"
+name = "Statac"
+version = "0.1.0"
+schema_version = 1
+authors = ["Steve Abraham"]
+description = "Problems as you type, completion, hover, going to things and renaming pages, in a Statac site."
+repository = "https://github.com/statac-ssg/zed-statac"
+
+# A site's settings, front matter, writing and data, and its templates. The
+# server leaves alone any file outside a site.
+[language_servers.statac]
+name = "Statac"
+languages = ["Markdown", "YAML", "JSON", "HTML", "XML"]
