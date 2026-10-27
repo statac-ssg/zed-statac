@@ -4,7 +4,7 @@ version = "0.1.0"
 schema_version = 1
 authors = ["Steve Abraham"]
 description = "Statac's language server: problems as you type, completion, hover, go to definition, find references, fixes, and links updated when a page is renamed."
-repository = "https://github.com/statac-ssg/zed-statac"
+repository = "https://git.statac.dev/statac/zed-statac"
 
 # A site's settings, front matter, content and data, its templates, and
 # `published.txt`. The server leaves alone any file outside a site.
