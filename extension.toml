@@ -3,10 +3,10 @@ name = "Statac"
 version = "0.1.0"
 schema_version = 1
 authors = ["Steve Abraham"]
-description = "Problems as you type, completion, hover, going to things and renaming pages, in a Statac site."
+description = "Statac's language server: problems as you type, completion, hover, go to definition, find references, fixes, and links updated when a page is renamed."
 repository = "https://github.com/statac-ssg/zed-statac"
 
-# A site's settings, front matter, writing and data, its templates, and
+# A site's settings, front matter, content and data, its templates, and
 # `published.txt`. The server leaves alone any file outside a site.
 [language_servers.statac]
 name = "Statac"
